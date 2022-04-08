@@ -60,7 +60,7 @@ export default function Births() {
                     label="Search by Year"
                 />
             </div>
-            <div className="cardsection container">
+            <div className="cardsection itemcontainer">
                 {posts
                     .map((item) => (
                         <Card
