@@ -21,7 +21,7 @@ export default function Title(props) {
 
     const titletext = ` records for the ${ordinal(today.getDate())} day 
         of the ${ordinal(today.getMonth())} month, 
-        in the year of our Lord ${today.getFullYear()}.`
+        in the year ${today.getFullYear()}.`
 
     return (
         <div>
